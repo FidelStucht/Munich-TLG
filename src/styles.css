@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #272044;
 }
 header h1 {
   font-family: "Poppins";
@@ -33,6 +33,41 @@ header {
   text-align: center;
   color: #ffffff;
   padding: 260px 0;
+}
+main {
+  background-color: #ffffff;
+}
+img {
+  margin: 20px 0px 0px 20px;
+  border-radius: 4px;
+}
+main h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #272044;
+}
+main h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 5px;
+}
+main p {
+  width: 536px;
+  height: 312px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272044;
+  opacity: 0.7;
 }
 footer {
   background-image: linear-gradient(
@@ -87,6 +122,13 @@ button {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.img-responsive {
+  width: 100%;
 }
 @media (max-width: 900px) {
   header {
@@ -100,5 +142,12 @@ button {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
   }
 }
