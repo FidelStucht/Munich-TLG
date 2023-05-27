@@ -214,9 +214,7 @@ button {
 .card-footer {
   padding: 0 30px 30px;
 }
-.gallery {
-  color: #ffffff;
-}
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
