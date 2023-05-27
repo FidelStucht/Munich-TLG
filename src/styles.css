@@ -51,6 +51,9 @@ main {
 img {
   margin: 20px 0px 0px 20px;
 }
+img.card {
+  height: 212px;
+}
 main h2 {
   font-weight: 700;
   font-size: 40px;
@@ -197,6 +200,11 @@ button {
 .card-header.grid {
   grid-gap: 0;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+  margin: 20px auto;
+}
 
 .card-body {
   padding: 30px;
@@ -224,5 +232,8 @@ button {
   }
   section {
     padding: 30px;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
