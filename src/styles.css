@@ -37,7 +37,7 @@ header a {
   line-height: 1.5;
   text-align: center;
   color: #272044;
-  padding: 16px 32px;
+
   margin-top: 32px;
   display: inline-block;
   letter-spacing: 3px;
@@ -51,9 +51,7 @@ main {
 img {
   margin: 20px 0px 0px 20px;
 }
-img.card {
-  height: 212px;
-}
+
 main h2 {
   font-weight: 700;
   font-size: 40px;
@@ -156,7 +154,6 @@ button {
   text-transform: uppercase;
   color: #272044;
   padding: 16px 32px;
-  margin: 16px;
 }
 .container {
   max-width: 1400px;
@@ -192,6 +189,10 @@ button {
   background-color: #462cb3;
   text-decoration: none;
 }
+.text-center {
+  display: block;
+  text-align: center;
+}
 .card {
   background: white;
   margin: 30px 0;
@@ -212,6 +213,9 @@ button {
 
 .card-footer {
   padding: 0 30px 30px;
+}
+.gallery {
+  color: #ffffff;
 }
 @media (max-width: 900px) {
   header {
